@@ -1,0 +1,9 @@
+CREATE TABLE `teacher_student` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `teacher_email` varchar(45) NOT NULL,
+  `student_email` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8
+
+
